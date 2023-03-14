@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+.robuyContainer {
+  .union {
+    margin-top: 30px;
+    display: flex;
+    .MuiTypography-root {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160.02%;
+
+      color: #1d2123;
+      margin-right: 7px;
+    }
+  }
+  .MuiButtonGroup-root {
+    margin-right: 10px;
+    margin-top: 16px;
+
+    .MuiButton-contained1 {
+      padding: 8px 12px;
+      gap: 8px;
+
+      width: 54px;
+      height: 35px;
+
+      font-family: "Inter", sans-serif;
+      color: white;
+      background: #6f2cff;
+      border-radius: 22px;
+      margin-right: 10px;
+    }
+    .MuiButton-contained2 {
+      align-items: center;
+      padding: 8px 12px;
+      font-family: "Inter", sans-serif;
+      gap: 8px;
+
+      font-weight: 600;
+      font-size: 16px;
+      color: #8d00d0;
+      margin-right: 10px;
+
+      background: #ffffff;
+      border-radius: 22px;
+    }
+    .MuiButton-contained3 {
+      align-items: center;
+      padding: 8px 12px;
+      font-family: "Inter", sans-serif;
+      color: #8d00d0;
+
+      font-weight: 600;
+      font-size: 16px;
+
+      margin-right: 10px;
+
+      background: #ffffff;
+      border-radius: 22px;
+    }
+    .MuiButton-contained4 {
+      align-items: center;
+      padding: 8px 12px;
+      font-weight: 600;
+      font-size: 16px;
+      font-family: "Inter", sans-serif;
+      color: #8d00d0;
+
+      margin-right: 10px;
+
+      background: #ffffff;
+      border-radius: 22px;
+    }
+  }
+
+  .MuiPaper-root {
+    border-radius: 16px;
+
+    img {
+      border-bottom-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+      // margin-top: 20px;
+    }
+    .MuiCardContent-root {
+      padding: 12px;
+      .buttonParent {
+        margin-bottom: 30px;
+        .MuiButton-contained2 {
+          color: #8d00d0;
+          background: rgba(141, 0, 208, 0.1);
+          border-radius: 22px;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          margin-right: 10px;
+        }
+        .MuiButton-contained1 {
+          color: #6f2cff;
+
+          background: rgba(141, 0, 208, 0.1);
+          border-radius: 22px;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+      .text {
+        .MuiTypography-body2 {
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 120%;
+          margin-bottom: 10px;
+
+          color: #1d2123;
+        }
+        .MuiTypography-body1 {
+          font-family: "Inter", sans-serif;
+
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160.02%;
+
+          color: #95a0a7;
+        }
+      }
+    }
+    .cardChild {
+      padding: 40px;
+      width: 578px;
+      // height: 240px;
+    }
+    .header {
+      background-color: #eaeef0;
+      padding: 20px;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .MuiButtonBase-root {
+        background: linear-gradient(
+          89.08deg,
+          #4095d2 0.84%,
+          #aa39d2 37.68%,
+          #c0537d 61.71%,
+          #d38c39 97.89%
+        );
+        border-radius: 32px;
+        color: white;
+        align-items: center;
+        padding: 13px 24px;
+      }
+      .MuiTypography-subtitle1 {
+        font-family: "Inter", sans-serif;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #1d2123;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      .MuiTypography-subtitle2 {
+        font-family: "Inter", sans-serif;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 4px;
+
+        color: #95a0a7;
+      }
+    }
+  }
+  .cardParent {
+    display: flex;
+    justify-content: space-between;
+    .MuiPaper-root {
+      .imgButton {
+        position: relative;
+        .MuiButtonBase-root {
+          position: absolute;
+          bottom: 0;
+          padding: 8px 12px;
+          gap: 8px;
+
+          background: #ffffff;
+          border-radius: 22px;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 120%;
+
+          color: #6f2cff;
+          margin-bottom: 30px;
+          margin-left: 30px;
+        }
+        .MuiButton-contained4 {
+          position: absolute;
+          bottom: 0;
+          padding: 8px 12px;
+          gap: 8px;
+
+          background: #ffffff;
+          border-radius: 22px;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 120%;
+
+          color: #8d00d0;
+          margin-bottom: 30px;
+          margin-left: 30px;
+        }
+      }
+      img {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+      margin-top: 16px;
+      .MuiCardContent-root {
+        padding: 30px;
+
+        .MuiTypography-h5 {
+          font-family: "Inter", sans-serif;
+
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 120%;
+
+          color: #1d2123;
+          margin-bottom: 15px;
+        }
+        .MuiTypography-body2 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160.02%;
+
+          color: #95a0a7;
+        }
+      }
+    }
+  }
+}
