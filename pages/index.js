@@ -3,7 +3,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 // import "./shared/scss/index.scss";
-import Robuy from "./component/robuy";
+import Robuy from "../component/robuy";
+import RobuySecondPage from "./blog";
 // import "../pages/shared/scss/index.scss";
 const inter = Inter({ subsets: ["latin"] });
 

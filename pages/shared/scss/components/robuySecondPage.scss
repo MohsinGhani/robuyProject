@@ -1,17 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
-
-.robuyContainer {
+.Index {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+.robuySecondContainer {
   @include sm {
-    max-width: 350px;
+    max-width: 393px;
     display: flex;
   }
+  .robuySecConChild {
+    .content {
+      margin-left: 10px;
+
+      .MuiTypography-body1 {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160.02%;
+        margin-top: 20px;
+        color: #1d2123;
+      }
+    }
+    margin: 30px;
+    .textCard {
+      background-color: #eaeef0;
+      padding: 20px;
+      //   margin: 30px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .MuiPaper-root {
+        display: flex;
+        flex-direction: row;
+
+        padding: 24px;
+        gap: 10px;
+        background-color: #eaeef0;
+        border-radius: 16px;
+        font-family: "Inter", sans-serif;
+
+        font-weight: 400;
+        font-size: 14px;
+        box-shadow: none;
+        padding: 4px;
+        border-style: none;
+        color: #1d2123;
+        .MuiTypography-body1 {
+          font-family: "Inter", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160.02%;
+
+          color: #1d2123;
+        }
+      }
+    }
+  }
+  display: flex;
+  flex-direction: column;
   .union {
+    @include sm {
+      margin-left: 20px;
+    }
     margin-top: 30px;
     display: flex;
     .MuiTypography-root {
-      font-family: "Inter";
+      font-family: "Inter", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -21,10 +84,13 @@
       margin-right: 7px;
     }
   }
+
   .MuiButtonGroup-root {
     margin-right: 10px;
     margin-top: 16px;
-
+    @include sm {
+      margin-left: 10px;
+    }
     .MuiButton-contained1 {
       padding: 8px 12px;
       gap: 8px;
@@ -83,29 +149,32 @@
 
   .MuiPaper-root {
     border-radius: 16px;
-    @include sm {
-      max-width: 350px;
-    }
+    box-shadow: none;
+
     img {
-      border-bottom-right-radius: 16px;
-      border-bottom-left-radius: 16px;
+      width: 100%;
       // margin-top: 20px;
       @include sm {
-        // max-width: 294px;
-        max-width: 294px;
-        margin-left: -10px;
+        height: auto;
+        width: auto;
       }
     }
     .MuiCardContent-root {
       padding: 12px;
       .buttonParent {
-        @include sm {
-          margin-top: 8px;
-          margin-right: 10px;
-          margin-left: -16px;
-        }
         margin-bottom: 30px;
+        @include sm {
+          display: flex;
+        }
         .MuiButton-contained2 {
+          @include sm {
+            padding-left: 3px;
+            padding-right: 7px;
+            width: 63%;
+            margin-right: 10px;
+            font-size: 13px;
+          }
+
           color: #8d00d0;
           background: rgba(141, 0, 208, 0.1);
           border-radius: 22px;
@@ -116,25 +185,18 @@
         }
         .MuiButton-contained1 {
           color: #6f2cff;
-
+          @include sm {
+            width: 38%;
+            font-size: 13px;
+          }
           background: rgba(141, 0, 208, 0.1);
           border-radius: 22px;
           font-family: "Inter", sans-serif;
           font-weight: 600;
           font-size: 16px;
-          @include sm {
-            margin-top: 10px;
-          }
         }
       }
       .text {
-        @include sm {
-          margin-top: -6px;
-          margin-right: 10px;
-          margin-left: -10px;
-          max-width: 288px;
-        }
-
         .MuiTypography-body2 {
           font-family: "Inter", sans-serif;
           font-weight: 600;
@@ -151,30 +213,27 @@
           font-size: 14px;
           line-height: 160.02%;
 
-          color: #95a0a7;
+          color: #1d2123;
         }
       }
     }
     .cardChild {
-      padding: 26px;
+      padding: 40px;
       width: 578px;
-      box-shadow: none;
-      margin-left: 10px;
-      margin-top: 22px;
+      // height: 240px;
     }
     .header {
       @include sm {
-        max-width: 256px;
-        margin-right: 50px;
+        max-width: 294px;
+        margin-right: 7px;
         display: flex;
         flex-direction: column;
-        margin-left: -11px;
+        margin-left: 2px;
       }
-
       background-color: #eaeef0;
       padding: 20px;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
+      //   margin: 30px;
+      border-radius: 16px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -187,7 +246,7 @@
           #d38c39 97.89%
         );
         @include sm {
-          margin-top: 10px;
+          margin-top: 12px;
         }
         border-radius: 32px;
         color: white;
@@ -231,31 +290,29 @@
         display: flex;
         flex-direction: column;
       }
-    }
-    .parentChild2 {
-      display: flex;
-      justify-content: space-between;
-      @include sm {
-        max-width: 356px;
-
-        display: flex;
-        flex-direction: column;
-      }
-      .MuiPaper-root {
+      .card2 {
         @include sm {
           display: none;
         }
       }
     }
+    .parentChild2 {
+      display: flex;
+      justify-content: space-between;
+      @include sm {
+        display: none;
+      }
+    }
     justify-content: space-between;
     flex-direction: column;
     .MuiPaper-root {
-      // @include sm {
-      //   max-width: 350px;
-
-      //   padding-left: -10px;
-      // }
-
+      @include sm {
+        max-width: 374px;
+        display: flex;
+        flex-direction: column;
+        width: 364px;
+        margin-left: 15px;
+      }
       .imgButton {
         position: relative;
         .MuiButtonBase-root {
@@ -331,22 +388,24 @@
     }
   }
   .virticalCard {
+    margin-top: 15px;
     max-width: 659px;
-    @include sm {
-      display: none;
-    }
+
     .MuiPaper-root {
       width: 100%;
+      @include sm {
+        display: none;
+      }
       .MuiCardContent-root {
         padding: 5px;
       }
       .MuiTypography-subtitle1 {
         font-family: "Inter", sans-serif;
-        margin-left: 20px;
+
         font-weight: 600;
         font-size: 20px;
         line-height: 120%;
-
+        margin-left: 24px;
         color: #1d2123;
 
         margin-bottom: 20px;
@@ -367,7 +426,6 @@
         padding: 8px 12px;
         gap: 8px;
         margin-left: 22px;
-
         background: #ffffff;
         border-radius: 22px;
         font-family: "Inter", sans-serif;
