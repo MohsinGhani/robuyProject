@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 // import "./shared/scss/index.scss";
 import Robuy from "../component/robuy";
 import RobuySecondPage from "./blog";
+import Header from "./component/header";
 // import "../pages/shared/scss/index.scss";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Header />
         <Robuy />
       </main>
     </>
