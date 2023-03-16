@@ -12,11 +12,13 @@ import { ButtonGroup } from "@mui/material";
 
 import Image from "next/image";
 import { Box, useTheme } from "@mui/system";
+import Header from "./header";
 
 const Robuy = () => {
   const theme = useTheme();
   return (
     <>
+      <Header />
       <div className="robuyContainer">
         <Card sx={{ maxWidth: 658 }}>
           <Card className="cardChild">

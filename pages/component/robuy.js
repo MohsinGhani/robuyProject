@@ -8,7 +8,7 @@ import images from "../../public/assets/images/index";
 import { ButtonGroup } from "@mui/material";
 import Image from "next/image";
 import { Box, useTheme } from "@mui/system";
-import Header from "./header";
+import Header from "../../component/header";
 
 const Robuy = () => {
   const theme = useTheme();

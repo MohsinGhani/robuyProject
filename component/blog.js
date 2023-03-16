@@ -12,11 +12,13 @@ import { ButtonGroup } from "@mui/material";
 
 import Image from "next/image";
 import { Box, useTheme } from "@mui/system";
+import Header from "./header";
 
 const RobuySecondPage = () => {
   const theme = useTheme();
   return (
     <>
+      <Header />
       <div className="robuySecondContainer">
         <Card sx={{ maxWidth: 658 }}>
           <img src={"/assets/images/image.svg"} alt="Edit Icon" />
