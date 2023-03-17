@@ -21,9 +21,9 @@ import { Button, ButtonGroup } from "@mui/material";
 
 export default function Header() {
   return (
-    <Box className="containor">
+    <Box className="container">
       <AppBar position="static">
-        <Toolbar className="btn-containor">
+        <Toolbar className="btn-container">
           <Box className="logo-container">
             <div>
               <Image src={images.logo} />
@@ -66,7 +66,7 @@ export default function Header() {
           </Box>
 
           <Box sx={{ flexGrow: 1 }} />
-          <Box className="icon-containor">
+          <Box className="icon-container">
             <div>
               <Image src={images.Vector} />
             </div>
