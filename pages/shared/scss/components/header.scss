@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 10px;
   .css-hip9hq-MuiPaper-root-MuiAppBar-root {
-    background-color: transparent;
+    background-color: transparent !important;
     color: black;
     box-shadow: none;
   }
@@ -10,7 +10,7 @@
     width: 97%;
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: transparent !important;
   }
   .logo-container {
     width: 28%;
